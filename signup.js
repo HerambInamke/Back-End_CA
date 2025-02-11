@@ -1,4 +1,5 @@
 export default function signup() {
+    const express = require('express');
     const signupPath = '/signup';
     app.post('/signup', (req, res) => {
         const { username, password, email, dob } = req.body;
